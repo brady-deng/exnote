@@ -1,0 +1,19 @@
+"Decision Trees(DTs)":
+{
+    "definition":"a non-parametric supervised learning method used for
+  classification and regression.",
+    "some advantages":{
+      "1":"Requires little data preparation",
+      "2":"The cost of using the tree is logarithmic in the number of
+      data points used to train the tree"
+      }
+}
+"Something should to know":
+{
+  "data normalisation":"数据标准化",
+  "discrete data":"离散型数据",
+  "continuous data":"连续性数据",
+  "numerical data":"具有实际测量的物理意义，比如说人的身高、体重、IQ、血压等等",
+  "categorical data":"代表了被描述对象的性质，比如说一个人的性别、婚姻状况、家乡等，
+  也可以称作是qualitative data或者是Yes/No data"
+}
