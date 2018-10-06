@@ -192,6 +192,9 @@
   "discriminative":"区别的，歧视的，有识别能力的",
   "prune":"剪枝",
   "dominant":"统治的",
+  "RDBMS":"Relational Database Management System, 关系数据库管理系统",
+  "BSON":"binary Serialized Document Format, 是一种二进制形式的存储格式，是一种类
+  json的二进制形式的存储格式，简称Binary JSON"
 }
 "Some good songs":
 {
