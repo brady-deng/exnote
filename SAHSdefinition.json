@@ -1,0 +1,21 @@
+{
+  "Apnea in adults":{
+    "1":"there is a drop in the peak signal excursion by over 90% of pre-event
+    baseline using an oronasal thermal sensor(diagnostic study), PAP device flow
+    (titration study), or an alternative apnea sensor, for over 10 seconds."
+  },
+  "Hypopnea in adults":{
+  "1":"Hypopnea in adults is scored when the peak signal excursions drop by over
+  30% of pre-event baseline using nasal pressure(diagnostic study), PAP device
+  device flow (titration study), or an alternative sensor, for over 10 seconds in
+  association with either over 3% arterial oxygen desaturation or an arousal."
+  },
+  "apnea in children":{
+  "1":"in children an apnea is scored when peak signal excursions drop by over 90%
+  of pre-event baseline using an oronasal thermal sensor(diagnostic study), PAP
+  device flow(titration study), or an alternative sensor; and the event meets
+  duration and respiratory effort criteria for an obstructive, mixed, or central
+  apnea."
+  },
+
+}
