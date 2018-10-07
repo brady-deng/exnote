@@ -194,7 +194,35 @@
   "dominant":"统治的",
   "RDBMS":"Relational Database Management System, 关系数据库管理系统",
   "BSON":"binary Serialized Document Format, 是一种二进制形式的存储格式，是一种类
-  json的二进制形式的存储格式，简称Binary JSON"
+  json的二进制形式的存储格式，简称Binary JSON",
+  "Ad-Hoc":"和以前的直连双绞线概念一样，是P2P的链接，所以也就无法与其他网络沟通了。",
+  "AD-Hoc查询":"即席查询，是用户根据自己的需求，灵活的选择查询条件，系统能够根据用户的
+  选择生成相应的统计报表，即席查询与普通应用查询最大的不同是普通的应用查询是定制开发的，
+  而即席查询是由用户自定义查询条件的。",
+  "slug":"偷懒",
+  "数据库中的多对多关系":"在RDMBS中，我们可以使用交叉表来表示多对多的关系，交叉表把多对
+  多的关系存储在单个表里，使用SQL join语句就可以查询与商品相关的所有类别，反之亦然.
+  MongoDB不支持join连接，所以需要不同的多对多策略。",
+  "Rollback":"回滚，指的是程序或数据处理错误，将程序或者数据恢复到上一次正确状态的行为。
+  回滚包括程序回滚和数据回滚等类型。",
+  "集合":"集合是结构上或概念上相似的文档的容器，MongoDB中创建集合是隐式创建的，也有一个
+  创建集合的命令：db.createCollection("",{size:****});除了创建上述的标准集合意外还可
+  以创建盖子集合（capped collection），或者称为是有上限的集合，一旦盖子集合达到最大上限
+  后续的插入将会覆盖最先插入的文档数据，除了大小限制意外，MongoDB允许为盖子集合指定最大
+  文档数量的max参数，这允许对存储文档的总数进行细粒度控制。大小配置具备优先权，创建集合
+  的方式如下所示：
+  db.createCollection('users.actions',{capped:true,size:16384,max:100}),
+  盖子集合不允许正常集合的所有操作，例如不允许从盖子集合中删除单个文档，也不能增加文档的大小",
+  "TTL集合":"MongoDB也允许在特定的时间后废弃文档数据，有时候叫做生存时间time-to-live
+  （TTL）集合，创建TTl索引的方式如下：
+  db.reviews.createIndex({time_field:1},{expireAfterSeconds:3600}),
+  这个命令会在（time_field）字段上创建索引，这个字段会定期检查时间戳，与当前的时间值比较
+  如果time_field与当前时间值的差距大于expireAfterSeconds设置，文档就会自动被删除，这个
+  例子里评价文档会在一个小时后删除。",
+  "系统集合":"MongoDB有两个特殊的集合：system.namespaces和system.indexes.我们可以使用
+  前者查询当前数据库定义的所有命名空间，后者存储了当前数据库里面定义的所有索引"
+
+
 }
 "Some good songs":
 {
