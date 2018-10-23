@@ -220,7 +220,25 @@
   如果time_field与当前时间值的差距大于expireAfterSeconds设置，文档就会自动被删除，这个
   例子里评价文档会在一个小时后删除。",
   "系统集合":"MongoDB有两个特殊的集合：system.namespaces和system.indexes.我们可以使用
-  前者查询当前数据库定义的所有命名空间，后者存储了当前数据库里面定义的所有索引"
+  前者查询当前数据库定义的所有命名空间，后者存储了当前数据库里面定义的所有索引",
+  "PPV":"positive predictive value, 和精准率的计算公式一样",
+  "NPV":"negative predictive value",
+  "Cohen's kappa coefficient":"是一种一致性检验的量化指标，由以下公式表示：
+  k = (p0-pe)/(1-pe) = 1-(1-p0)/(1-pe),p0就是正确率，pe的计算比较复杂，如果两种分布
+  完全相同，k=1，如果完全不同，则k=0.kappa大于0.75表示好的一致性，小于0.4表示一致性差",
+  "baseline wander":"基线漂移",
+  "power noise":"功率噪声，电源噪声",
+  "PRV":"pulse rate variability",
+  "spike noise":"尖峰噪声",
+  "ODI":"the total sum of oxygen desaturation events per hour while sleep/wake
+  states were estimated using the PPG, 也就是每小时血氧欠饱和次数",
+  "oxygen desaturation event":"a region with a decrease of more than 3% below the
+  baseline during sleep or a decrease of more than 4% below the baseline during
+  wake state, according to the sleep/wake states. 睡眠的时候血氧下降超过3%或者清醒的
+  时候血氧下降超过4%",
+
+
+
 
 
 }

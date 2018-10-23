@@ -17,5 +17,11 @@
   duration and respiratory effort criteria for an obstructive, mixed, or central
   apnea."
   },
+  "AHI":"
+  normal (AHI < 5), seven cases are
+slight (5 < AHI < 15), eight cases are intermediate (15 < AHI < 30), and
+twelve cases are severe (AHI>30)
+    "
+  }
 
 }

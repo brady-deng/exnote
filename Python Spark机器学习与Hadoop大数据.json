@@ -1,0 +1,42 @@
+{
+  "1":
+  {
+    "简介":"Apache Spark 是开放源码的集群运算框架，是一个弹性的运算框架，适合进行Spark
+    Streaming数据流处理、Spark SQL互动分析、MLlib机器学习等应用，因此Spark可作为一个
+    用途广泛的大数据运算平台，Spark允许用户将数据加载到cluster集群的内存中存储，并多次
+    重复运算，非常适合用于机器学习的算法",
+    "Spark RDD in-memory 的计算框架":"Spark的核心是RDD（Resilient Distributed Dataset）
+    弹性分布式数据集，在运算时，将中间产生的数据暂存在内存当中，因此可以加快运行速度。需要
+    反复操作的次数越多，所需读取的数据量越大，Spark的性能优势就越大。",
+    "Spark数据处理方式":"数据处理方式有3种，RDD、DataFrame、Spark SQL，三者的主要差异
+    在于是否定义Schema，DataFrame与Spark SQL比RDD更快速
+    RDD的数据未定义Schema（也就是未定义字段名及数据类型）。使用上必须有Map/Reduce的概念，
+    需要有高级的程序设计能力，但是功能也最强，能完成所有Spark功能
+    Spark DataFrame 建立时必须定义Schema（也就是定义每一个字段名与数据类型），所以DataFrame
+    在早期版本中也称为Schema
+    Spark SQL是由DataFrame衍生出来的，我们必须先建立DataFrame。
+    ",
+    "Spark开发语言":"Scala语言是Spark的开发语言，除此之外Spark还支持java、R、Python",
+    "Scala":"Scala是一门多范式的编程语言，设计初衷是实现可伸缩的语言、并集成面向对象编程和
+    函数式编程的各种特性",
+    "大数据":"大数据（Big data），又称为巨量资料、巨量数据或海量数据，一般来说大数据的特性
+    可归为3V，Volume、Variety和Velocity
+    Volume（大量数据），
+    Variety（多样性），大数据的数据类型非常多样化，可分为非结构化信息和结构化信息。
+    非结构化信息：文字、图片、图像、视频、音乐、地理位置信息、个人化信息
+    结构化信息：数据库、数据仓库
+    Velocity（时效性），
+    数据的传输流动速度：每秒产生的数据流越来越大，
+    组织必须能实时处理大量的信息。",
+    "Hadoop的特性":"
+    可扩展性（Scalable），Hadoop采用分布式计算与存储，当我们扩充容量或者运算时，不需要更换
+    整个系统，只需要增加新的数据节点服务器即可，
+    经济性（Economical），只需要一般等级的服务器就可架构出高性能、高容量的集群，
+    弹性（Flexible），Hadoop存储的数据是非结构化的（schema-less）的，也就是可以存储各种形式、
+    不同数据源的数据，
+    可靠性（Reliable），某一台服务器坏掉并不会影响整个系统",
+    "HDFS":"Hadoop Distributed File System，HDFS设计的前提与目标：
+    硬件故障是常态而不是异常：HDFS是运行在低成本的普通服务器上的，硬件故障是常态而不是异常，具有
+    高度容错能力，能够实时检测错误并且自动恢复"
+  }
+}
