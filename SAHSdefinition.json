@@ -21,7 +21,11 @@
   normal (AHI < 5), seven cases are
 slight (5 < AHI < 15), eight cases are intermediate (15 < AHI < 30), and
 twelve cases are severe (AHI>30)
-    "
+    ",
+  "SDB":"Sleep-disorgered breathing, refers to a variety of breathing disorders
+  that occur during sleep, which can be broadly divided into sleep apnea and Sleep
+  hypopnea"
   }
+
 
 }
