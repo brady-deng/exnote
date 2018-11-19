@@ -37,6 +37,13 @@
     可靠性（Reliable），某一台服务器坏掉并不会影响整个系统",
     "HDFS":"Hadoop Distributed File System，HDFS设计的前提与目标：
     硬件故障是常态而不是异常：HDFS是运行在低成本的普通服务器上的，硬件故障是常态而不是异常，具有
-    高度容错能力，能够实时检测错误并且自动恢复"
+    高度容错能力，能够实时检测错误并且自动恢复",
+    "Hadoop Multi Node Cluster":"
+    有一台主要的计算机master，在HDFS担任NameNode角色、在MapReduce2（YARN）担任ResourceManager
+    角色
+    有多台辅助计算机data1、data2、data3，在HDFS担任DataNode角色、在MapReduce2（YARN）担任
+    NodeManager角色
+
+    "
   }
 }

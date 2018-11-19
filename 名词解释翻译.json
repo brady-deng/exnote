@@ -124,6 +124,29 @@
     black-box estimator (e.g., a decision tree), by introducing randomization into its
     construction procedure and then making an ensemble out of it.",
   },
+  "sup":{
+    "max_features":"
+    Increasing max_features generally improves the performance of the model as at
+    each node now we have a higher number of options to be considered. However,
+    this is not necessarily true as this decrease the diversity of individual tree
+    which is the USP of random forest, but, for sure, you decrease the speed of
+    algorithm by increasing the max_features. Hence, you need to strike the right
+    balance and choose the optimal max_features.
+    ",
+    "n_estimators":"
+    this is the number of trees you want to build before taking the maximum voting
+    or averages of predictions. Higher number of trees give you better performance
+    but makes your code slowere. You should choose as high value as your processor
+    can handle because this makes your predictions stronger and more stable
+    ",
+    "min_sample_leaf":"
+    If you have built a decision tree before, you can appreciate the importance
+    of minimum sample leaf size. Leaf is the end node of a decision tree. A smaller
+     leaf makes the model more prone to capturing noise in train data. Generally
+      I prefer a minimum leaf size of more than 50. However, you should try multiple
+       leaf sizes to find the most optimum for your use case.
+    "
+  },
   "3":{
     "boosting":"Boosting是一族可将弱学习器提升为强学习器的算法.关于Boosting的两个核心问题：
     1）在每一轮如何改变训练数据的权值或概率分布？
@@ -236,8 +259,27 @@
   baseline during sleep or a decrease of more than 4% below the baseline during
   wake state, according to the sleep/wake states. 睡眠的时候血氧下降超过3%或者清醒的
   时候血氧下降超过4%",
-
-
+  "Bland-Altman plot":"布兰德-奥特曼图，a bland-altman plot in analytical chemistry
+  or biomedicine is a method of data plotting used in analyzing the agreement be-
+  tween two different assays. 也可以叫做Tukey mean-difference plot,横轴是两种测量方
+  法的均值，纵轴是两种测量方法的差值，bland-altman图法主要观察两种测量之间差异的分布，在
+  纵轴上以差异的均值和理论0值为均值参考线，另外再添加md+-1.96SD即差异均值的95%的置信区间
+  的参考线，也称为95%的可接受的一致性界限，报告结果需要结合图形做合理解释，一般情况下报告
+  在一致性界限外的点的百分比，与理论值相差的最大值，结合临床，进行合理解释，决定对新方法的
+  取舍",
+  "assay":"化验，试验",
+  "matlab中的nargin":"nargin是用来判断输入变量个数的函数",
+  "two-feature strong classifier":"两维特征强分类器",
+  "nevertheless":"然而，不过，虽然如此",
+  "schematic":"原理图",
+  "eliminate":"排除，消除",
+  "subsequent":"后来的，随后的",
+  "drawback":"缺点，不利条件",
+  "diversity":"多样性，差异",
+  "prone":"更易于，prone to do something",
+  "progress down":"进步了",
+  "feasibility":"可行性",
+  "impractically":"不切实际的",
 
 
 
@@ -251,4 +293,23 @@
   "2":{
 
   }
+},
+"文献写法，有关级联分类器":
+{
+"1":"
+This section describes an algorithm for constructing a cascade of classifiers which
+achieves increased detection performance while radically reducing computation time.
+cascade,小瀑布，串联
+achieve,取得，获得
+radically,根本上、彻底地、以激进的方式
+",
+"2":"
+A positive result from the first classifier triggers the evaluation of a second
+classifier which has also been adjusted to achieve very high detection rates
+",
+"3":"
+As such, the cascade attempts to reject as many negatives as possible at the
+earliest stage possible. While a positive instance will trigger the evaluation
+of every classifier in the cascade, this is an exceedingly rare event.
+"
 }
