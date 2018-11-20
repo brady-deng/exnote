@@ -44,6 +44,10 @@
     有多台辅助计算机data1、data2、data3，在HDFS担任DataNode角色、在MapReduce2（YARN）担任
     NodeManager角色
 
+    ",
+    "MapReduce":"
+    Map,就是分配工作
+    Reduce，就是将工作结果汇总整理
     "
   }
 }
